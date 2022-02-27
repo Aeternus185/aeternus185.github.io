@@ -21,7 +21,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: var(dark);
 }
 header {
   width: 100%;
