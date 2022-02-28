@@ -1,5 +1,5 @@
-const hamburguer = document.querySelector('.hamburguer');
+const chk = document.getElementById('chk');
 
-hamburguer.addEventListener('click', function (){
-    document.querySelector('.nav-bar').classList.toggle('active');
+chk.addEventListener('change', () => {
+	document.body.classList.toggle('light-mode');
 });

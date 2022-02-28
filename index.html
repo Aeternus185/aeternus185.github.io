@@ -25,45 +25,37 @@
   </head>
   <body>
     <!--- HEADER -->
-<header>
-    <div class="logo">
-        Aeternus
-    </div>
-    <div class="hamburguer">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-    </div>
-    <nav class="nav-bar">
+    <header class="header sticky">
+      <a href="#" class="nav-logo">Aeternus</a>
+      <nav class="navbar">
         <ul>
-            <li>
-                <a href="#" class="active">
-                Home
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                Features
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                Pricing
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                About
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                Contact
-                </a>
-            </li>
+          <li>
+            <a href="#" class="active"> Home </a>
+          </li>
+          <li>
+            <a href="#"> About </a>
+          </li>
+          <li>
+            <a href="#"> Skills </a>
+          </li>
+          <li>
+            <a href="#"> Portfolio </a>
+          </li>
+          <li>
+            <a href="#"> Contact </a>
+          </li>
+          <div>
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+              <i class="fa-solid fa-moon"></i>
+              <i class="fa-solid fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+          </div>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
+
     <!--- JS -->
     <script src="main.js"></script>
   </body>
