@@ -28,10 +28,6 @@
   color: var(--colortext);
 }
 
-html {
-  overflow: auto;
-}
-
 body {
   background-color: var(--background);
   overflow-y: scroll;
