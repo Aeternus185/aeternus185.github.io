@@ -8,4 +8,5 @@ chk.addEventListener("change", () => {
 /* PRE-LOADER */
 window.onload = function () {
   document.querySelector(".preloader").style.display = "none";
+  document.querySelector(".overlay").style.display = "none";
 };
